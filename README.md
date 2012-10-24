@@ -7,8 +7,8 @@ Usage
 ------
 Add all or some of these lines to your .bashrc or .zshrc:
 ```bash
-source functions.sh
 source aliases.sh
+source functions.sh
 source navigation.sh
 ```
 
