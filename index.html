@@ -1,0 +1,122 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Bashyjava</title>
+  <meta name="description" content="Bash functions &amp; aliases to make command line Java development faster.">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Bashyjava</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Bash functions &amp; aliases to make command line Java development faster.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/JainLabs/bashyjava/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/JainLabs/bashyjava/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/JainLabs/bashyjava" class="code">View Bashyjava on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>bashyjava</h1>
+
+<p>Bash functions &amp; aliases to make command line Java development faster.</p>
+
+<h2>Usage</h2>
+
+<p>Add all or some of these lines to your .bashrc or .zshrc:</p>
+
+<div class="highlight"><pre><span class="nb">source </span>aliases.sh
+<span class="nb">source </span>functions.sh
+<span class="nb">source </span>navigation.sh
+</pre></div>
+
+<h2>functions.sh</h2>
+
+<h3>j &lt;class name&gt;</h3>
+
+<p>Compile and run class.<br><code>j Cylinder</code> <em>is equivalent to:</em> <code>javac Cylinder.java; java Cylinder</code></p>
+
+<h3>buildAll</h3>
+
+<p>Compile all files in current directoy.</p>
+
+<h3>newproj</h3>
+
+<p>Create directory and class with main method.<br><code>newproj ShooterGame</code> creates ShooterGame/ShooterGame.java in the current directory</p>
+
+<h3>newclass</h3>
+
+<p>Create a class with a constructor.<br><code>newclass Ship</code> creates Ship.java in the current directory</p>
+
+<h2>aliases.sh</h2>
+
+<h3>la</h3>
+
+<p>ls with hidden directories.
+<code>la</code> is the same as <code>ls -A</code></p>
+
+<h3>cd, rm, mv</h3>
+
+<p>Interactive mode. Avoid unintentional damage.<br><code>cd</code> is equivalent to <code>cd -i</code><br><code>rm</code> is equivalent to <code>rm -i</code><br><code>mv</code> is equivalent to <code>mv -i</code><br>
+Use -f to override (be careful!)</p>
+
+<h2>navigation.sh</h2>
+
+<p>Methods for navigating around my file structure. Feel free to skip this file!</p>
+
+<h3>proj [project]</h3>
+
+<p><em>project argument is optional</em><br>
+Go to <code>~/MyDocuments/projects</code> or <code>~/MyDocuments/projects/[project]</code></p>
+
+<h3>exam [example]</h3>
+
+<p><em>example argument is optional</em><br>
+Go to <code>~/MyDocuments/examples</code> or <code>~/MyDocuments/examples/[example]</code></p>
+
+<h3>prog [program]</h3>
+
+<p><em>program argument is optional</em><br>
+Go to <code>~/MyDocuments/programs</code> or <code>~/MyDocuments/programs/[program]</code></p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/JainLabs" class="avatar"><img src="https://secure.gravatar.com/avatar/14fc1d0d7d489ee90c1eb6824f511c96?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/JainLabs">JainLabs</a> maintains <a href="https://github.com/JainLabs/bashyjava">Bashyjava</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/JainLabs/bashyjava/tarball/master" class="tar">tar</a><a href="https://github.com/JainLabs/bashyjava/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
